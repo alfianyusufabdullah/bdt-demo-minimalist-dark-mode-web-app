@@ -1,0 +1,79 @@
+:root {
+  --text-color: black;
+  --background: white;
+}
+
+[data-theme="light"] {
+  --text-color: black;
+  --background: white;
+}
+
+[data-theme="dark"] {
+  --text-color: white;
+  --background: #212020;
+}
+
+#btn-ganti-tema {
+  background: gray;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  color: var(--text-color);
+}
+
+body {
+  background: var(--background);
+}
+
+section {
+  margin-top: 40px;
+}
+
+svg {
+  fill: var(--text-color);
+}
+
+#dcd-sections {
+  display: flex;
+  justify-content: center;
+}
+
+.dcd-sections-row {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.spacer {
+  width: 50px;
+}
+
+.dcd-ava {
+  width: 120px;
+  border-radius: 50%;
+}
+
+header {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#dcd-sections section {
+  display: flex;
+}
+
+.section-container {
+  margin-left: 20px;
+}
+
+.section-title {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.section-value {
+  margin: 0;
+  padding: 0;
+}
